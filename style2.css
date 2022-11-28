@@ -1,0 +1,1478 @@
+.search{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+backdrop-filter: blur(19px);
+-webkit-backdrop-filter: blur(15px);
+z-index: 999;
+display: none;
+transition-delay: .3s;
+transition: all .4s ease-in;
+}
+.search i {
+    color: rgb(70, 68, 62);
+    font-size: 45px;
+    margin: 25px 35px;
+    float: right;
+    cursor: pointer;
+    transition-delay: .3s;
+transition: all .4s ease-in;
+}
+.sea{
+    width: 100%;
+transform: translate(50%,50%);
+position: absolute;
+top: 37%;
+transition-delay: .3s;
+transition: all .4s ease-in;
+left: -15%;
+}
+.search .sea input[type="search"]{
+    width: 400px;
+    padding: 20px;
+    background: transparent;
+    color: rgb(172, 172, 172);
+    border: 0;
+font-size: 50px;
+text-align: center;
+border-bottom: 2px solid black;
+transition-delay: .3s;
+transition: all .4s ease-in;
+
+}
+.search .sea input::placeholder{
+    font-size: 50px;
+text-align: center;
+}
+
+@media screen and (max-width:1183px){
+.content .image{
+    width: 68%;
+}
+.content .image img{
+    max-width: 125%;
+}
+}
+@media screen and (max-width:1403px){
+    .content .image{
+        width: 68%;
+    }
+    .content .image .img{
+        max-width: 123%;
+    }
+    }
+    @media screen and (max-width:1151px){
+        .content .image .img{
+            max-width: 129%;
+        }
+    }
+@media screen and (max-width:1120px) {
+    .content .text{
+        width: 50%;
+    }
+    .content .text h1{
+        color: white;
+        font-size:45px;
+    
+    }
+    .content .text h2{
+        font-size: 30px;
+        color: rgb(221, 188, 0);
+        
+    }
+    .content .text h4{
+        margin: 18px 10px;
+        font-size: 15px;
+        color: white;
+    }
+    .content .text button{
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:991px) {
+    nav {
+     
+        padding: 15px 94px;
+
+    }
+        .content .text h1{
+        color: white;
+        font-size:45px;
+    
+    }
+    .content .text h2{
+        font-size: 30px;
+        color: rgb(221, 188, 0);
+        
+    }
+}
+
+@media screen and (max-width:1000px){
+    .content .image{
+        width:79%;
+    }
+    content .image img {
+        max-width: 119%;
+      
+    }
+    }
+    @media screen and (max-width:953px) {
+        .content .image img {
+            max-width: 115%;
+        
+        }
+    }
+    @media screen and (max-width:948px){
+        .content .text{
+            width: 40%;
+        }
+        .content .text h1{
+            color: white;
+            font-size:38px;
+        
+        }
+        .content .text h2{
+            font-size: 25px;
+            color: rgb(221, 188, 0);
+            
+        }
+        .content .text h4{
+            margin: 12px 5px;
+            font-size: 12px;
+            color: white;
+        }
+        .content .text button{
+            margin: 10px 0;
+        }
+    }
+
+    @media screen and (max-width:889px) {
+        .content .text {
+            width: 39%;
+        }
+        .content .text h1 {
+            color: white;
+            font-size: 32px;
+        }
+        .content .text button {
+            margin: 10px 0;
+            font-size: 15px;
+        }
+        nav {
+            padding: 15px 60px;
+        }
+        .courses .images{
+            width: 80%;
+        }
+    }
+    @media screen and (max-width:635px){
+        .courses .images{
+            width: 90%;
+        }
+    }
+    
+    @media screen and (max-width:807px){
+        nav {
+            padding: 15px 38px;
+        }
+        .content {
+            width: 105%;
+          
+        }
+    }
+    @media screen and (max-width:810px){
+        nav {
+            padding: 15px 7px;
+        }
+        
+    }
+    @media screen and (max-width:767px){
+        .content .text h1 {
+            color: white;
+            font-size: 21px;
+        }
+        .content .text h2 {
+            font-size: 22px;
+            color: rgb(221, 188, 0);
+        }
+        .content .text button {
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        .content .text {
+            width: 32%;
+        }
+        .content .image img {
+            max-width: 118%;
+        }
+    }
+    @media screen and (max-width:714px){
+        nav ul{
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 3px 12px;
+        }
+        .icon{
+            text-align: center;
+        }
+        nav .icon i {
+            margin: 6px 8px;
+        }
+    #click{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    }
+    @media screen and (max-width:530px){
+#click{
+    padding-left: 0;
+    font-size: 23px;
+}
+    }
+    @media screen and (max-width:442px){
+        nav ul li{
+            margin: 3px 8px;
+        }
+        nav ul li a{
+            font-size: 12px;
+        }
+        nav h3 {
+            color: rgb(221, 188, 0);
+            font-size: 23px;
+            margin-right: 5px;
+        }
+    }
+    @media screen and (max-width:680px){
+        .content .image {
+display: none;        }
+
+.content .text h2 {
+    font-size: 22px;
+    color: rgb(221, 188, 0);
+}
+.content .text button {
+    margin: 10px 0;
+    font-size: 12px;
+}
+.content .text {
+    width: 58%;
+}
+.content .text button {
+    margin: 13px 0;
+    font-size: 17px;
+}
+.content .text h4 {
+    margin: 21px 14px;
+    font-size: 15px;
+    color: white;
+}
+.content .text h2 {
+    font-size: 40px;
+    color: rgb(221, 188, 0);
+}
+.content .text h1 {
+    color: white;
+    font-size: 43px;
+}
+    }
+    @media screen and (max-width:630px){
+        .content .text{
+            width: 58%;
+        }
+        .content .text button {
+            margin: 13px 0;
+            font-size: 14px;
+        }
+        .content .text h4 {
+            margin: 21px 14px;
+            font-size: 12px;
+            color: white;
+        }
+        .content .text h2 {
+            font-size: 33px;
+            color: rgb(221, 188, 0);
+        }
+        .content .text h1 {
+            color: white;
+            font-size: 38px;
+        }
+    }
+    @media screen and (max-width:580px){
+        .content .text{
+            width: 78%;
+        }
+     
+    }
+    @media screen and (max-width:468px){
+        .content .text{
+            width:88%;
+        }
+    }
+    @media screen and (max-width:426px){
+        .content .text{
+            width:100%;
+        }
+    }
+    @media screen and (max-width:396px){
+        .content .text{
+            width:100%;
+        }
+        .content .text h1{
+            font-size: 35px;
+        }
+    }
+    @media screen and (max-width:378px){
+        .content .text{
+            width:100%;
+        }
+        .content .text h1{
+            font-size:  30px;
+        }
+        .content .text h2{
+            font-size: 28px;
+        }
+        .content .text button {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+    }
+
+@media screen and (max-width:935px){
+    #one:hover::after {
+        content: 'Art And Design';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 20vh;
+        color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+    #two:hover::after {
+        content: 'English Speaking';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 20vh;
+        color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+    #three:hover::after {
+        content: 'Business Stady';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 20vh;
+        color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+    #foure:hover::after {
+        content: 'Sience';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 20vh;
+        color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:592px){
+    #one:hover::after {
+        content: 'Art And Design';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 19vh;
+        color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+    #two:hover::after {
+        content: 'English Speaking';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 19vh;
+        color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+    #three:hover::after {
+        content: 'Business Stady';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 19vh;
+        color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+    #foure:hover::after {
+        content: 'Sience';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 19vh;
+        color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:535px){
+    #one:hover::after {
+        content: 'Art And Design';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 17vh;
+                color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+    #two:hover::after {
+        content: 'English Speaking';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 17vh;
+                color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+    #three:hover::after {
+        content: 'Business Stady';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 17vh;
+                color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+    #foure:hover::after {
+        content: 'Sience';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 17vh;
+                color: white;
+        font-size: 21px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:479px){
+    #one:hover::after {
+        content: 'Art And Design';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 15vh;
+    color: white;
+    font-size: 20px;
+        display: inline-block;
+    }
+    #two:hover::after {
+        content: 'English Speaking';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 15vh;
+        color: white;
+        font-size: 20px;
+        display: inline-block;
+    }
+    #three:hover::after {
+        content: 'Business Stady';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 15vh;
+        color: white;
+        font-size: 20px;
+        display: inline-block;
+    }
+    #foure:hover::after {
+        content: 'Sience';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 15vh;
+        color: white;
+        font-size: 20px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:419px){
+    #one:hover::after {
+        content: 'Art And Design';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 13vh;
+        color: white;
+        font-size: 16px;
+        display: inline-block;
+    }
+    #two:hover::after {
+        content: 'English Speaking';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 13vh;
+        color: white;
+        font-size: 16px;
+        display: inline-block;
+    }
+    #three:hover::after {
+        content: 'Business Stady';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 13vh;
+        color: white;
+        font-size: 16px;
+        display: inline-block;
+    }
+    #foure:hover::after {
+        content: 'Sience';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 13vh;
+        color: white;
+        font-size: 16px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:390px){
+    #one:hover::after {
+        content: 'Art And Design';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 11vh;        color: white;
+        font-size: 16px;
+        display: inline-block;
+    }
+    #two:hover::after {
+        content: 'English Speaking';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 11vh;        color: white;
+        font-size: 16px;
+        display: inline-block;
+    }
+    #three:hover::after {
+        content: 'Business Stady';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 11vh;        color: white;
+        font-size: 16px;
+        display: inline-block;
+    }
+    #foure:hover::after {
+        content: 'Sience';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 11vh;        color: white;
+        font-size: 16px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:307px){
+    #one:hover::after {
+        content: 'Art And Design';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 9vh;
+        color: white;
+        font-size: 13px;
+        display: inline-block;
+    }
+    #two:hover::after {
+        content: 'English Speaking';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 9vh;
+        color: white;
+        font-size: 13px;
+        display: inline-block;
+    }
+    #three:hover::after {
+        content: 'Business Stady';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 9vh;
+        color: white;
+        font-size: 13px;
+        display: inline-block;
+    }
+    #foure:hover::after {
+        content: 'Sience';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 9vh;
+        color: white;
+        font-size: 13px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:253px){
+    #one:hover::after {
+        content: 'Art And Design';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 7vh;
+        color: white;
+        font-size: 12px;
+        display: inline-block;
+    }
+    #two:hover::after {
+        content: 'English Speaking';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+
+        line-height: 7vh;
+        color: white;
+        font-size: 12px;
+        display: inline-block;
+    }
+    #three:hover::after {
+        content: 'Business Stady';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 7vh;
+        color: white;
+        font-size: 12px;
+        display: inline-block;
+    }
+    #foure:hover::after {
+        content: 'Sience';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 0;
+        text-align: center;
+        line-height: 7vh;
+        color: white;
+        font-size: 12px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:999px){
+    .incard .card {
+        width: 77%;
+        max-height: 80%;
+        min-width: 38%;
+        min-height: 50%;
+        border: solid 1px #777;
+        padding: 45px 60px;
+        margin-right: 20px;
+    }
+    .incard .card-image img{
+        width: 130%;
+        
+    }
+}
+@media screen and (max-width:868px){
+    .incard .card {
+        width: 83%;
+        max-height: 80%;
+        min-width: 38%;
+        min-height: 50%;
+        border: solid 1px #777;
+        padding: 30px 50px;
+        margin-right: 20px;
+    }
+    .incard .card h4 {
+        margin: 15px 0;
+        font-size: 20px;
+    }
+    .incard .card p {
+        margin: 15px 0;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:757px){
+    .incard .card {
+        width: 88%;
+        max-height: 80%;
+        min-width: 38%;
+        min-height: 50%;
+        border: solid 1px #777;
+        padding: 30px 50px;
+        margin-right: 20px;
+    }
+    .incard .card h4 {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    .incard .card p {
+        margin: 10px 0;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:714px){
+    .incard .card {
+        width: 88%;
+        max-height: 80%;
+        min-width: 38%;
+        min-height: 43%;
+        border: solid 1px #777;
+        padding: 15px 13px;
+                margin-right: 20px;
+    }
+    .incard .card h4 {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    .incard .card p {
+        margin: 10px 0;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:670px){
+    .incard {
+        width: 97%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 88%;
+        padding: 0 70px;
+    }
+    .incard .card {
+        width: 88%;
+        max-height: 80%;
+        min-width: 38%;
+        min-height: 43%;
+        border: solid 1px #777;
+        padding: 15px 13px;
+                margin-right: 6px;
+    }
+    .incard .card h4 {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    .incard .card p {
+        margin: 10px 0;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:606px){
+    .incard {
+        display: block;
+    }
+    .incard .card{
+        margin: 60px auto;
+        width: 100%;
+        text-align: center;
+        min-height: 30%;    
+    }
+    .incard .card-image{
+        width: 100%;
+margin: auto;
+    }
+    .incard .card-image img {
+        width: 197%;
+        top: 10%;
+        transform: translate(-23%, -18%);
+    }
+    .incard .card-image i {
+        position: absolute;
+        top: 24%;
+        color: rgb(143, 122, 5);
+        left: -63%;
+        font-size: 42px;
+    }
+    .title p {
+        font-size: 15px;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:943px){
+    .incarded .title p {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .blog .card .incarded img{
+        width: 60%;
+    }
+}
+@media screen and (max-width:755px){
+    .incarded .title p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .blog .card .incarded img{
+        width: 55%;
+    }
+    .incarded .title h3 {
+        font-size: 24px;
+        margin-bottom: 13px;
+    }
+}
+@media screen and (max-width:656px){
+    .incarded .title p {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .blog .card .incarded img{
+        width: 55%;
+    }
+    .incarded .title h3 {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+}
+@media screen and (max-width:607px){
+    .incarded .title p {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .blog .card .incarded img{
+        width: 52%;
+    }
+    .incarded .title h3 {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+}
+@media screen and (max-width:606px){
+    .blog .card{
+        width: 100%;
+    }
+    .blog .card .incarded{
+        width: 72%;
+        display: block;
+    }
+    .blog .card .incarded img{
+        width: 100%;
+    }
+    .incarded .title h3 {
+        font-size: 18px;
+        margin: 13px 0;
+        text-align: center;
+    }
+    .incarded .title p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .blog .card button {
+        border: 0;
+        color: white;
+        font-size: 21px;
+        margin-left: 34%;
+        margin-bottom: 42px;
+        transition: .3s ease-in-out;
+    }
+}
+
+@media screen and (max-width:462px){
+    .blog .card button {
+        border: 0;
+        color: white;
+        font-size: 21px;
+        margin-left: 30%;
+        margin-bottom: 45px;
+        transition: .3s ease-in-out;
+    }
+}
+@media screen and (max-width:387px){
+    .blog .card button {
+        border: 0;
+        color: white;
+        font-size: 21px;
+        margin-left: 28%;
+        margin-bottom: 45px;
+        transition: .3s ease-in-out;
+    }
+}
+@media screen and (max-width:337px){
+    .blog .card button {
+        border: 0;
+        color: white;
+        font-size: 21px;
+        margin-left: 25%;
+        margin-bottom: 45px;
+        transition: .3s ease-in-out;
+    }
+}
+@media screen and (max-width:300px){
+    .blog .card button {
+        border: 0;
+        color: white;
+        font-size: 18px;
+        margin-left: 21%;
+        margin-bottom: 45px;
+        transition: .3s ease-in-out;
+    }
+}
+@media screen and (max-width:827px){
+    .view .incarded .title h3 {
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        width: 267%;
+    }
+    .view .incarded .title p {
+        color: rgb(255, 255, 255);
+        width: 170%;
+    }
+}
+@media screen and (max-width:648px){
+    .view {
+        width: 100%;
+        height: 95vh;
+        background-color: #111;
+    }
+    .view .incarded{
+        display: block;
+        margin: auto;
+
+    }    .view .incarded img {
+        display: block;
+        margin: auto;
+
+    }
+.view .incarded .title{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 100px;
+    z-index: 888;
+}
+    .view .incarded .title h3 {
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .view .incarded .title p {
+        color: rgb(255, 255, 255);
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .get{
+        width: 100%;
+        height: 40vh;
+    }
+    .get .content {
+        margin: 60px auto;
+        display: block;
+    }
+    .txt{
+        margin-top: -71px;
+    }
+}
+
+@media screen and (max-width:1205px){
+    footer .container {
+        width: 100%;
+        display: flex;
+        height: 80%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px 125px;
+    }
+}
+@media screen and (max-width:1080px){
+    footer .container {
+        width: 100%;
+        display: flex;
+        height: 80%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px 84px;
+    }
+}
+@media screen and (max-width:949px){
+    footer .container {
+        width: 100%;
+        display: flex;
+        height: 80%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px 39px;
+    }
+    
+}
+@media screen and (max-width:895px){
+    footer .container {
+        width: 100%;
+        display: flex;
+        height: 80%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px 73px;
+    }
+    footer .form button {
+        margin-left: 18px;
+        transition: .2s;
+        padding: 6px 40px;
+    }
+    footer .container .infor p {
+        padding: 10px 0;
+        font-size: 17px;
+    }
+    footer .container .helpful h3{
+        font-size: 22px;
+    }
+    footer .container .infor h3{
+        font-size: 23px;
+        font-weight: 400;
+        padding: 20px 0 ;
+        }
+    footer .container .helpful a {
+        text-decoration: none;
+        color: wheat;
+        font-size: 19px;
+        transition: .4s;
+    }
+    .name h1 {
+        font-size: 32px;
+        color: wheat;
+        cursor: pointer;
+        transition: .3s;
+    }
+    footer .container hr {
+        height: 92%;
+    }
+}
+
+@media screen and (max-width:846px){
+    footer .container {
+        width: 100%;
+        display: flex;
+        height: 80%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px 14px;
+    }
+    footer .container hr {
+        height: 92%;
+    }
+}
+@media screen and (max-width:758px){
+    .name h1 {
+        display: none;
+    }
+    footer .container {
+
+        width: 100%;
+        display: flex;
+        height: 70%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px 14px;
+    }
+    footer .form input[type="text"] {
+        width: 43%;
+        border-radius: 50px;
+        padding: 15px 20px;
+    }
+    footer .container .take {
+        display: block;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    footer .container .helpful a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 15px;
+    transition: .4s;
+}
+footer .container hr {
+    height: 82%;
+    margin-top: 65px;
+}
+footer .container .infor p {
+    padding: 10px 0;
+    font-size: 15px;
+}
+footer .container .helpful h3 {
+    font-size: 20px;
+}
+footer .container .infor h3 {
+    font-size: 21px;
+    font-weight: 400;
+    padding: 23px 0;
+}
+.name h1 {
+    font-size: 26px;
+    margin-right: 7px;
+    color: wheat;
+    cursor: pointer;
+    transition: .3s;
+}
+
+}
+
+@media screen and (max-width:736px){
+    footer .container{
+        padding: 6px 44px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+    }
+    footer .container hr {
+      display: none;
+    }
+    .name h1 {
+        display: none;
+    }
+  .search .sea input[type="search"]{
+    width: 70%;
+
+  }
+  .search i {
+    color: rgb(70, 68, 62);
+    font-size: 45px;
+    margin: 25px 35px;
+    float: right;
+    cursor: pointer;
+    transition-delay: .3s;
+transition: all .4s ease-in;
+}
+.sea{
+    width: 100%;
+transform: translate(40%,50%);
+position: absolute;
+transition-delay: .3s;
+transition: all .4s ease-in;
+
+}
+
+.search .sea input::placeholder{
+    font-size: 50px;
+text-align: center;
+}
+}
+
+@media screen and (max-width:562px){
+    footer {
+        width: 100%;
+        height: 104vh;
+        background-color: #111;
+        color: white;
+        margin-top: 50px;
+    }
+    footer .container {
+        padding: 6px 11px;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+    }
+    footer .container .infor p {
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    footer .container .infor h3 {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 0;
+        color: gold;
+    }
+    footer .container .infor {
+        height: 58%;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+    footer .container .helpful {
+        height: 71%;
+        text-align: center;
+        width: 100%;
+        margin-left: 108px;
+    }
+    footer .container .helpful li {
+        padding: 7px 0;
+    }
+    footer .container .helpful h3 {
+        font-size: 20px;
+      color:gold;
+      font-weight: 500;
+        margin-top: 17px;
+    }
+    footer .container .take {
+        font-size: 16px;
+        margin-left: 45px;
+    }
+    .name h1 {
+        display: none;
+    }
+    footer .form button {
+        margin-left: 18px;
+        transition: .2s;
+        padding: 3px 26px;
+    }
+}
+
+@media (max-width:515px){
+    footer {
+        width: 100%;
+        height: 90vh;
+        background-color: #111;
+        color: white;
+        margin-top: 50px;
+    }
+    footer .form button {
+        margin-left: 18px;
+        transition: .2s;
+        padding: 3px 32px;
+        font-size: 14px;
+    }
+    footer .form input[type="text"] {
+        width: 51%;
+        border-radius: 50px;
+        padding: 15px 20px;
+    }
+    footer .container .helpful {
+        height: 100%;
+                text-align: center;
+        width: 100%;
+        margin-left: 80px;
+        margin-bottom: -11px;
+    }
+    footer .container .infor {
+        height: 58%;
+        margin-left: -6px;
+                margin-bottom: 0;
+    }
+    footer .container .take {
+    font-size: 16px;
+    margin-left: 20px;
+}
+.get .content pre {
+    font-size: 29px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.get .content {
+    /* margin: 44px auto; */
+    display: block;
+}
+.txt {
+    margin-top: -137px;
+}
+footer .container {
+    height: 88%;
+}
+}
