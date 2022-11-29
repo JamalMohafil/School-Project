@@ -280,24 +280,26 @@ display: none;        }
     }
     @media screen and (max-width:630px){
         .content .text{
-            width: 58%;
+            width:100%;
+            margin-left: -37px;
         }
         .content .text button {
             margin: 13px 0;
             font-size: 14px;
+          font-weight: 500;
         }
         .content .text h4 {
-            margin: 21px 14px;
-            font-size: 12px;
+            margin: 21px 1px;
+            font-size: 15px;
             color: white;
         }
         .content .text h2 {
-            font-size: 33px;
+            font-size: 44px;
             color: rgb(221, 188, 0);
         }
         .content .text h1 {
             color: white;
-            font-size: 38px;
+            font-size: 40.7px;
         }
     }
     @media screen and (max-width:580px){
