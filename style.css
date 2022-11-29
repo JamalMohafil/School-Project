@@ -418,7 +418,11 @@ font-size: 45px;
           
         }
 }
-@media (max-width:504px){
+@media (max-width:604px){
+    .incard .card-image {
+        left: -3%;
+        padding-top: 50px;
+    }
     .incard .card-image img:hover{
         width: 197%;
         top: 10%;
@@ -426,6 +430,9 @@ font-size: 45px;
         }
         .incard .card-image i{
 opacity: 0;     }
+}
+@media (max-width:500px){
+   
 }
 /*==================== BLOG ========================*/
 
