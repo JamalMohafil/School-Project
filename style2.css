@@ -887,9 +887,11 @@ display: none;        }
         margin-right: 20px;
     }
     .incard .card-image img{
-        width: 130%;
+        width: 127%;
+        margin-left: 10px;
         
     }
+
 }
 @media screen and (max-width:868px){
     .incard .card {

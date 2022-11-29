@@ -328,7 +328,7 @@ margin: auto;    }
 .about{
     width: 100%;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
     
 }
 .title{
@@ -358,7 +358,13 @@ font-weight: bolder;
     min-height: 50%;
 border: solid 1px #777;
 padding: 45px 60px;
+border-radius: 20px;
+transition: 0.5s;
 
+}
+.incard .card:hover{
+    border: solid #111 1px;
+    box-shadow: 0 0 105px #777;
 }
 .incard .card h4{
         margin: 15px 0;
@@ -373,11 +379,27 @@ padding: 45px 60px;
 .incard .card p{
     margin: 15px 0;
     color: #777;
+    transition: 0.5s;
 }
 .incard .card-image{
     max-width: 50%;
     position: relative;
+    transition: 0.5s;
 }
+.incard .card-image img{
+    transition: 0.5s;
+    border-radius: 50px;
+
+}
+
+.incard .card-image img:hover{
+width: 98%;
+    transform: rotate(3deg);
+    border-radius: 50px;
+    border: solid #111 1px;
+    box-shadow: 0 0 105px #777;
+}
+
 .incard .card-image i{
     position: absolute;
     top: 46%;
@@ -386,6 +408,25 @@ left: -3%;
 font-size: 45px;
 }
 
+@media (max-width:900px){
+    .incard .card-image img:hover{
+        width: 123%;
+            transform: rotate(0deg);
+            border-radius:20px;
+            border: 0;
+            box-shadow:0;
+          
+        }
+}
+@media (max-width:504px){
+    .incard .card-image img:hover{
+        width: 197%;
+        top: 10%;
+        transform: translate(-23%, -18%);
+        }
+        .incard .card-image i{
+opacity: 0;     }
+}
 /*==================== BLOG ========================*/
 
 
@@ -419,6 +460,15 @@ transition: .3s ease-in-out;
 .blog .card button:hover{
     background-color: black;
 }
+.blog .card .incarded img{
+    border-radius: 50px;
+transition: 0.4s;
+}
+.blog .card .incarded img:hover{
+    transform: scale(0.9);
+    transform: rotate(3deg);
+    box-shadow: 10px 0  80px #666;
+}
 
 /*========================== Testimonial =========================*/
 
@@ -434,7 +484,8 @@ padding: 50px 0;
 .view .title hr{
     margin: auto;
     width: 10%;
-    height: 2px;
+    height: 6px;
+    border-radius: 8px;
     border: none;
     outline: none;
     background: white;
@@ -449,10 +500,12 @@ padding: 50px 0;
 .view .incarded img{
     margin-right:40px;
     transition: .3s;
+    border-radius: 25px;
 }
 .view .incarded img:hover{
-transform:rotate(180deg);
+transform: rotate(3deg);
 transform: scale(1.1);
+margin-bottom: 28px;
 }
 .view .incarded .title h3{
     color: rgb(255, 255, 255);
@@ -618,7 +671,7 @@ footer .container .helpful a:hover{
     text-align: center  ;
     font-size: 19px;
     width: 100%;
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(255, 238, 0);
     color: black;
     font-weight: 700;
     padding: 10px 0;
@@ -628,4 +681,4 @@ footer .container .helpful a:hover{
 cursor: pointer;
 }
 .copy span:hover{
-color: gold;}
+color: rgb(190, 190, 190);}
