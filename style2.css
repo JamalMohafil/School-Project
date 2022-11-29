@@ -208,7 +208,7 @@ text-align: center;
         }
     }
     @media screen and (max-width:714px){
-        nav ul{
+        nav  ul{
             text-align: center;
         }
         nav ul li {

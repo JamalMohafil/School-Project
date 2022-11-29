@@ -28,7 +28,7 @@ main{
 
 /*========================== NAVBAR =========================*/
 
-nav{
+nav  {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -37,6 +37,15 @@ background-color: rgb(241, 241, 241);
 padding: 15px 150px;
 margin-top: 20px;
 }
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: rgb(241, 241, 241);
+margin: 0 -43px 0 224px;
+}
+
 
 nav h3{
     color: rgb(0, 0, 0);
@@ -50,32 +59,32 @@ transition: .1s ;
 nav h3:hover{
     color: rgb(221, 188, 0);
 }
-nav ul li{
+nav .nav-bar ul li{
     display: inline-block;
     margin: 0 12px;
 }
-nav ul li a{
+nav .nav-bar ul li a{
     color: black;
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
     transition: .4s ;
 }
-nav ul li a.active{
+nav .nav-bar ul li a.active{
     color: rgb(221, 188, 0);
 }
-nav ul li a:hover{
+nav .nav-bar ul li a:hover{
     color: rgb(221, 188, 0);
 
 }
 
-nav .icon i{
+nav .nav-bar .icon i{
  margin: 0 8px;
  font-size: 23px;
  cursor: pointer;
 transition: .4s;
 }
-nav .icon i:hover{
+nav .nav-bar .icon i:hover{
  color: rgb(221, 188, 0);
 }
 
