@@ -397,7 +397,7 @@ width: 98%;
     transform: rotate(3deg);
     border-radius: 50px;
     border: solid #111 1px;
-    box-shadow: 0 0 105px #777;
+    box-shadow: 0 0 105px rgb(119, 119, 119);
 }
 
 .incard .card-image i{

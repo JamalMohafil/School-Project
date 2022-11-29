@@ -1436,7 +1436,7 @@ text-align: center;
 @media (max-width:515px){
     footer {
         width: 100%;
-        height: 90vh;
+        height: 67vh;
         background-color: #111;
         color: white;
         margin-top: 50px;
@@ -1453,11 +1453,7 @@ text-align: center;
         padding: 15px 20px;
     }
     footer .container .helpful {
-        height: 100%;
-                text-align: center;
-        width: 100%;
-        margin-left: 80px;
-        margin-bottom: -11px;
+display: none;
     }
     footer .container .infor {
         height: 58%;
@@ -1481,6 +1477,10 @@ text-align: center;
     margin-top: -137px;
 }
 footer .container {
-    height: 88%;
+    height: 15%;
+}
+.copy {
+    font-size: 14px;
+ 
 }
 }
