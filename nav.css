@@ -5,6 +5,9 @@ html,body{
     padding: 0;
     overflow-x: hidden;
 }
+nav{
+    position: relative;
+}
 .hamburger{
     display: none;
 }
@@ -32,39 +35,38 @@ html,body{
     }
  
     nav .nav-bar{
-        opacity: 0;
+       z-index: 999;
         height: 0;
         display: block;
         position: absolute;
         top: 90px;
         left: 0;
         right:0 ;
-        width: 100vw;
+        width: 98vw;
         background: #11101b;
         transition: .5s;
-        text-align: center;
         overflow: hidden;
+
     }
     .nav-bar.activee {
-        height: 473px;
-        opacity: 1;
-        position: absolute;
-        top: 95px;
-        left: 0;
-        right: 50%;
+        height: 450px;
+    
         width: 100vw;
         background: #11101b;
         transition: .5s;
         text-align: center;
         margin: 0 auto;
-        text-align: center;
     }
     nav .nav-bar ul{
         opacity: 0;
     }
+    .nav-bar.icon{
+        opacity: 0;
+    }
     nav .nav-bar ul li {
-        display: block;
-        margin: 38px 12px;
+     
+      
+        opacity: 0;
     }
     nav .nav-bar ul li a {
         color: #fefafa;
@@ -72,6 +74,7 @@ html,body{
         font-size: 18px;
         font-weight: 500;
         transition: .4s;
+        opacity: 0;
     }
     nav .nav-bar .icon i{
         color: white;
@@ -80,7 +83,17 @@ html,body{
     .nav-bar.activee ul{
         opacity: 1;
     }
+    .nav-bar.activee ul li{
+        display: block;
+        opacity: 1;  margin: 38px 12px;
+    }
+    .nav-bar.activee .icon{
+        opacity: 1;
+    }
     .nav-bar.activee .icon i{
+        opacity: 1;
+    }
+    nav .nav-bar.activee ul li a{
         opacity: 1;
     }
     nav .nav-bar #click{

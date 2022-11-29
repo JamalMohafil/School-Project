@@ -683,7 +683,7 @@ display: none;        }
         top: 0;
         text-align: center;
 
-        line-height: 11vh;        color: white;
+        line-height: 10vh;        color: white;
         font-size: 16px;
         display: inline-block;
     }
@@ -699,7 +699,7 @@ display: none;        }
         top: 0;
         text-align: center;
 
-        line-height: 11vh;        color: white;
+        line-height: 10vh;        color: white;
         font-size: 16px;
         display: inline-block;
     }
@@ -715,7 +715,7 @@ display: none;        }
         top: 0;
         text-align: center;
 
-        line-height: 11vh;        color: white;
+        line-height: 10vh;        color: white;
         font-size: 16px;
         display: inline-block;
     }
@@ -731,12 +731,13 @@ display: none;        }
         top: 0;
         text-align: center;
 
-        line-height: 11vh;        color: white;
+        line-height: 10vh;   
+             color: white;
         font-size: 16px;
         display: inline-block;
     }
 }
-@media screen and (max-width:307px){
+@media  (max-width:307px){
     #one:hover::after {
         content: 'Art And Design';
         position: absolute;
@@ -818,11 +819,11 @@ display: none;        }
         margin: 0 auto;
         top: 0;
         text-align: center;
-
         line-height: 7vh;
         color: white;
-        font-size: 12px;
-        display: inline-block;
+  
+        font-size: 10px;
+       
     }
     #two:hover::after {
         content: 'English Speaking';
@@ -838,8 +839,8 @@ display: none;        }
 
         line-height: 7vh;
         color: white;
-        font-size: 12px;
-        display: inline-block;
+  
+        font-size: 10px;
     }
     #three:hover::after {
         content: 'Business Stady';
@@ -854,8 +855,8 @@ display: none;        }
         text-align: center;
         line-height: 7vh;
         color: white;
-        font-size: 12px;
-        display: inline-block;
+  
+        font-size: 10px;
     }
     #foure:hover::after {
         content: 'Sience';
@@ -870,8 +871,8 @@ display: none;        }
         text-align: center;
         line-height: 7vh;
         color: white;
-        font-size: 12px;
-        display: inline-block;
+  
+        font-size: 10px;
     }
 }
 
@@ -1327,7 +1328,12 @@ footer .container .infor h3 {
 }
 
 }
-
+@media screen and (max-width:900px){
+    .search .sea input[type="search"]{
+        width: 40%;
+    
+      }
+}
 @media screen and (max-width:736px){
     footer .container{
         padding: 6px 44px;
@@ -1341,7 +1347,7 @@ footer .container .infor h3 {
         display: none;
     }
   .search .sea input[type="search"]{
-    width: 70%;
+    width: 60%;
 
   }
   .search i {
