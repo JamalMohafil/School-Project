@@ -39,7 +39,7 @@ nav{
         height: 0;
         display: block;
         position: absolute;
-        top: 90px;
+        top: 66px;
         left: 0;
         right:0 ;
         width: 98vw;
@@ -101,4 +101,30 @@ nav{
         margin: 25px 0 0 0 ;
         font-size: 28px;
     }
+}
+
+@media screen and (max-width:580px){
+    nav .nav-bar{
+        z-index: 999;
+         height: 0;
+         display: block;
+         position: absolute;
+         top: 66px;
+         left: 0;
+         right:0 ;
+         width: 98vw;
+         background: #11101b;
+         transition: .5s;
+         overflow: hidden;
+ 
+     }
+     .nav-bar.activee {
+         height: 450px;
+     
+         width: 100vw;
+         background: #11101b;
+         transition: .5s;
+         text-align: center;
+         margin: 0 auto;
+     }
 }
